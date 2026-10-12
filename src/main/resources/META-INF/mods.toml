@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="trashcan"
+version="1.0.0"
+displayName="Trash Can"
+description='''
+A trash can block with 54 slots (double chest size). Anything put inside disappears after 10 seconds, so you can grab it back if you misclick.
+'''
+
+[[dependencies.trashcan]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.trashcan]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
